@@ -1,0 +1,21 @@
+.navbar-container{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    margin:10px;
+    max-width: 100%;
+}
+.navbar-container img{
+    width:50px;
+    height:50px;
+}
+.navbar-container h1{
+    color:red;
+}
+
+@media all and (max-width:570px){
+    .navbar-container{
+        padding-left: 20px;
+
+    }
+}

@@ -1,0 +1,26 @@
+.book-card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+    max-width:900px;
+    margin: 0 auto;
+}
+
+@media all and (max-width:991px){
+    .book-card-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media all and (max-width:768px){
+    .book-card-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media all and (max-width:570px){
+    .book-card-container{
+        grid-template-columns: repeat(1,1fr);
+        max-width:900px;
+        margin:20px;
+        margin-top: -50px;
+    }
+}

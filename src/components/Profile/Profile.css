@@ -1,0 +1,113 @@
+.profile-container{
+    max-width: 85%;
+    margin: 0 auto;
+}
+.person-image-name{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.person-image-name img{
+    width:75px;
+    height:75px;
+    border-radius: 50%;
+}
+.address{
+    text-align: center;
+    margin-top:-10px;
+    margin-left:100px;
+}
+.fitness-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f9f9f9;
+    margin-top:40px;
+    padding:15px 0;
+    border-radius: 15px;
+}
+.break-title{
+    margin-top:40px;
+}
+
+.break-time-chart{
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.break-time-chart button{
+    border:none;
+    width:14%;
+    margin-left:16px;
+    border-radius: 50%;
+    height:45px;
+    cursor: pointer;
+}
+.active{
+    background-color: rgb(44, 44, 182);
+    color:#fff;
+}
+
+.exercise-time , .break-time{
+    background-color: #f9f9f9;
+    padding:20px 0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top:15px;
+}
+.break-time-title{
+    margin-top:40px;
+}
+.activity-complete{
+    text-align: center;
+    margin-top: 30px;
+}
+.activity-complete button{
+    border:none;
+    width:90%;
+    background-color: rgb(39, 39, 186);
+    border-radius: 20px;
+    color:#fff;
+    font-size: 18px;
+    padding:20px 0;
+    cursor: pointer;
+}
+
+@media all and (max-width:991px){
+    .profile-container{
+        margin:20px;
+    }
+    .person-name{
+        font-size:18px;
+    }
+    .address{
+        margin-left:50px;
+    }
+}
+@media all and (max-width:768px){
+    .profile-container{
+        margin:20px;
+    }
+    .person-name{
+        font-size:18px;
+    }
+    .person-image-name{
+        justify-content: space-evenly;
+    }
+}
+@media all and (max-width:570px){
+    .profile-container{
+        margin:20px;
+    }
+    .person-name{
+        font-size:18px;
+    }
+    .person-image-name{
+        justify-content: space-evenly;
+    }
+    .address{
+        margin-left:130px;
+    }
+}
